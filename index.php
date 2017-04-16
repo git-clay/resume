@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="./css/skins/eden.css" rel="stylesheet">
     <link href="./css/icons/icons.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
     
    <!--  <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <!-- Custom styles for this template -->
 
-    <link href="./css/main.css" rel="stylesheet">
+    <link type="text/css" href="./css/main.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" rel="stylesheet">
   </head>
 
   <body data-spy="scroll" data-target="#topnav">
-    <!-- navbar -->
+
 <nav class="navbar navbar-color navbar-inverse navbar-fixed-top" id="topnav" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -33,10 +33,10 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#timeline">Timeline</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#references">References</a></li>
+        <!-- <li><a href="#references">References</a></li> -->
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -89,7 +89,7 @@
         </div>
         <div class="up-triangle animated fadeInUp">
           <div class="info">
-            <a href="./css/images/resume_clay_smith.pdf"><i class="icon tn-tablet"></i></a><br/>
+            <a href="./css/images/Clay-Resume.pdf"><i class="icon tn-tablet"></i></a><br/>
             Resume
           </div>
         </div>
@@ -98,6 +98,105 @@
   </div>
 </div>
 <!-- End of Header -->
+<!-- Portfolio / Projects -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center inner-page">
+        <h2>Projects</h2>
+      </div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="portfolio-block">
+            <img src="./css/images/p1.png" alt="Protect" >
+          <div class="portfolio-caption text-center animated">
+            <h3 class="animated">Pydro</h3>
+            <a href="https://github.com/git-clay/Project_1" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
+            <a href="https://git-clay.github.io/Project_1/" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
+            <ul class='list-unstyled'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Vanilla Javascript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="portfolio-block">
+           <img src="./css/images/p2-motiv-laptop.png" alt="Protect" >
+          <div class="portfolio-caption text-center animated">
+            <h3 class="animated">Mo+iv</h3>
+            <a href="https://github.com/git-clay/Project-2_Mo-iv" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
+            <a href="https://pure-brook-74304.herokuapp.com/" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
+            <ul class='list-unstyled'>
+              <li>Nodejs</li>
+              <li>MongoDB</li>
+              <li>Authorization/Authentication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="portfolio-block">
+          <img src="./css/images/roamrr.png" alt="Protect">
+          <div class="portfolio-caption text-center animated">
+            <h3 class="animated">Roamrr</h3>
+            <a href="https://github.com/git-clay/Project_3/" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
+            <a href="https://protected-hamlet-38916.herokuapp.com/" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
+            <ul class='list-unstyled'>
+              <li>Angular 1</li>
+              <li>Postgres SQL</li>
+              <li>Nodejs</li>
+              <li>Authorization/Authentication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="portfolio-block">
+          <img src="./css/images/splotch-npm.png" alt="Protect">
+          <div class="portfolio-caption text-center animated">
+            <h3 class="animated">Splotch (npm package)</h3>
+            <a href="https://github.com/git-clay/splotch/" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
+            <a href="https://www.npmjs.com/package/splotch" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
+            <ul class='list-unstyled'>
+              <li>npm</li>
+              <li>scss</li>
+              <li>gulp</li>
+            </ul>
+          </div>
+        </div>
+      </div>      
+     <!--  <div class="col-xs-12 col-sm-6">
+        <div class="portfolio-block">
+          <img src="./css/images/projects/4.jpg" alt="Protect" >
+          <div class="portfolio-caption text-center animated">
+            <h3 class="animated">Portfolio Item #4:final</h3>
+            <a href="#" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
+            <a href="#" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="portfolio-block">
+           <img src="./css/images/projects/4.jpg" alt="Protect" >
+          <div class="portfolio-caption text-center animated">
+            <h3 class="animated">Portfolio Item #5:pup game</h3>
+            <a href="#" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
+            <a href="#" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>  -->
+
+    </div>
+  </div>
+</section>
+
+<!-- End of Projects / Portfolio -->
 <!-- Skills box -->
 <section id="skills">
   <div class="container">
@@ -128,7 +227,7 @@
                 <div class="hexicon">
                   <i class="inicon devicon-angularjs-plain-wordmark"></i>
                   <ul class="icon-description list-unstyled">
-                    <li>Angular 1 & 2</li>
+                    <li>Angular 1 and 2</li>
                     <li><a href="#"></a></li>
                   </ul>
                 </div>
@@ -160,6 +259,7 @@
                   </ul>
                 </div>
               </div>
+              
               <div class="col-xs-6 col-sm-4 col-md-2">
                 <div class="hexicon">
                   <i class="inicon devicon-github-plain-wordmark"></i>
@@ -233,7 +333,16 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-xs-6 col-sm-4 col-sm-offset-4 col-md-2">
+              <div class="col-xs-6 col-sm-4 col-md-2 col-sm-offset-3">
+                <div class="hexicon">
+                  <img class="react" src="./css/images/reactIcon.svg">
+                  <ul id="react" class="icon-description list-unstyled">
+                    <li>React</li>
+                    <li><a href="#"></a></li>
+                  </ul>
+                </div>
+              </div>               
+              <div class="col-xs-6 col-sm-4  col-md-2">
                 <div class="hexicon">
                   <img id="sequel" src="./css/images/sequelize.png">
                   <ul id="sequel" class="icon-description list-unstyled">
@@ -271,34 +380,37 @@
           </div>
         </div>
       </div> -->
-<!--       <div class="card">
+  <!--    <div class="card">
         <div class="card-header" role="tab" id="headingOne">
           <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            Frontend
+            Current Projects
             </a>
           </h5>
         </div>
         <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
           <div class="card-block">
             <div class="row features">
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header" role="tab" id="headingThree">
-          <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Other
-            </a>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="card-block">
-            <div class="row features">
-
+languages im learning
+             <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="hexicon">
+                  <i class="inicon devicon-angularjs-plain-wordmark"></i>
+                  <ul class="icon-description list-unstyled">
+                    <li>Angular 1 & 2</li>
+                    <li><a href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+current projects
+             <div class="col-xs-6 col-sm-4 col-md-2">
+                <div class="hexicon">
+                  <i class="inicon devicon-angularjs-plain-wordmark"></i>
+                  <ul class="icon-description list-unstyled">
+                    <li>Angular 1 & 2</li>
+                    <li><a href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -318,6 +430,41 @@
         </div>
     </div>
     <ul class="timeline">
+          <li>
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel col-xs-12">
+          <div class="timeline-heading">
+            <img class="img-responsive" src="./css/images/jaywalk.png" />
+          </div>
+          <div class="timeline-body">
+            <h4 class="text-danger text-center">CURRENT</h4>
+            <p>In the process of helping this startup get to a point that their app is marketable and easy for a user to navigate to what they need. My main responsibility is creating a robust back-end api to plug in to multiple applications. The top priority was remaking the database to be easier to navigate as this company grows their userbase. I am also developing a slack app that integrates with their data. I will also be part of remaking the mobile application soon using Ionic.</p>
+            <ul>
+              <li>Python</li>
+              <li>Firebase</li>
+              <li>Slackbot</li>
+              <li>Ionic</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li  class="timeline-inverted">
+        <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" id=""></i></a></div>
+        <div class="timeline-panel col-xs-12">
+          <div class="timeline-heading">
+            <img class="img-responsive" " src="./css/images/railwayLogo.jpg" />
+          </div>
+          <div class="timeline-body">
+            <h4 class="text-danger text-center">CURRENT</h4>
+            <p>I am in the process of flipping this crossfit gym's Drupal site and taking it to the next level. Probably the first crossfit website built with Angular 4. The owner stressed that building a mobile friendly website was top priority. This includes user friendly contact forms(no annoying captcha but still anti spam), integrated google maps, and owner admin login to update information.</p>
+            <ul>
+              <li>Angular 4</li>
+              <li>Nodejs</li>
+              <li>Firebase (MongoDB)</li>
+            </ul>
+          </div>
+        </div>
+      </li>
       <li>
       2017
         <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" id=""></i></a></div>
@@ -326,7 +473,7 @@
             <img class="img-responsive" src="./css/images/ga-logo.png" />
           </div>
           <div class="timeline-body">
-            <h4>General Assembly</h4>
+            <!-- <h4>General Assembly</h4> -->
             <p>This was a full time, fast paced course focused on the learning process behind web development. We added a plethora of the most current tools to our coding arsenal in only 12 weeks! In addition to the hard skills, General Assembly taught us how to develop as a team and communicate effectivly with project managers and UX/UI designers.</p>
           </div>
         </div>
@@ -338,7 +485,7 @@
             <img class="img-responsive" " src="./css/images/trainer.png" />
           </div>
           <div class="timeline-body">
-            <h4>Biofit Blueprint / Youfit</h4>
+            <!-- <h4>Biofit Blueprint / Youfit</h4> -->
             <p>Personal training allowed me to exercise new entreprenural skills and learn the stuggle of starting a business from scratch.  While offering physical training at Youfit, I started Biofit Blueprint which is purely online training. I have had clients from accross the country.</p>
           </div>
         </div>
@@ -350,7 +497,7 @@
             <img class="img-responsive" src="./css/images/logo-enterprise.png" />
           </div>
           <div class="timeline-body">
-          <h4>Enterprise</h4>
+          <!-- <h4>Enterprise</h4> -->
             <p>My knowledge of buisiness management and leadership grew exponentially while working for enterprise. Excellent experience in running all aspects of a large business.</p>
           </div>
         </div>
@@ -363,7 +510,7 @@
             <img class="img-responsive" src="./css/images/asu-logo.png" />
           </div>
           <div class="timeline-body">
-          <h4>Appalacian State University</h4>
+          <!-- <h4>Appalacian State University</h4> -->
             <p>After a short internsihp I was offered the research technitian position in the human performance lab. I was in charge of the community fitness program as well as recruiting for upcoming studies. I would contribute to research design, data collection, and data analysis throughout each study as well. I was also granted the task of training new interns and employees.</p>
           </div>
         </div>
@@ -376,7 +523,7 @@
             <img class="img-responsive" src="./css/images/uncc.png" />
           </div>
           <div class="timeline-body">
-            <h4>University of North Carolina at Charlotte</h4>
+            <!-- <h4>University of North Carolina at Charlotte</h4> -->
             <p>I obtained my Bachelor's of Science in Exercise Physiology. While attending UNCC I worked in the writing center as a tutor. I also volunteered in the biodynamics research lab.</p>
           </div>
         </div>
@@ -388,78 +535,11 @@
   </div>
 </section>
 <!-- End of Timeline -->
-<!-- Portfolio / Projects -->
-<section class="portfolio" id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center inner-page">
-        <h2>Projects</h2>
-      </div>
-    </div>
-  </div>
-  <div class="clr"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <div class="portfolio-block">
-            <img src="./css/images/p1.png" alt="Protect" >
-          <div class="portfolio-caption text-center animated">
-            <h3 class="animated">Pydro</h3>
-            <a href="https://github.com/git-clay/Project_1" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
-            <a href="https://git-clay.github.io/Project_1/" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <div class="portfolio-block">
-           <img src="./css/images/p2-motiv-laptop.png" alt="Protect" >
-          <div class="portfolio-caption text-center animated">
-            <h3 class="animated">Mo+iv</h3>
-            <a href="https://github.com/git-clay/Project-2_Mo-iv" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
-            <a href="https://pure-brook-74304.herokuapp.com/" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <div class="portfolio-block">
-          <img src="./css/images/roamrr.png" alt="Protect">
-          <div class="portfolio-caption text-center animated">
-            <h3 class="animated">Roamrr</h3>
-            <a href="https://github.com/git-clay/Project_3/" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
-            <a href="https://protected-hamlet-38916.herokuapp.com/" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-     <!--  <div class="col-xs-12 col-sm-6">
-        <div class="portfolio-block">
-          <img src="./css/images/projects/4.jpg" alt="Protect" >
-          <div class="portfolio-caption text-center animated">
-            <h3 class="animated">Portfolio Item #4:final</h3>
-            <a href="#" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
-            <a href="#" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="portfolio-block">
-           <img src="./css/images/projects/4.jpg" alt="Protect" >
-          <div class="portfolio-caption text-center animated">
-            <h3 class="animated">Portfolio Item #5:pup game</h3>
-            <a href="#" class="btn btn-social btn-skype btn-sm animated"><i class="tn-github"></i></a>
-            <a href="#" class="btn btn-social btn-stack-overflow btn-sm animated"><i class="tn-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>  -->
 
-    </div>
-  </div>
-</section>
-
-<!-- End of Projects / Portfolio -->
 <!-- Testimonials -->
 
 <section>
- <section class="gray" id="references">
+<!--  <section class="gray" id="references">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -467,7 +547,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <div class="carousel-reviews broun-block">
   <div class="container">
 
@@ -624,7 +704,7 @@
     </div><br>
   <?php include('contactForm.php') ?>
         <div class="col-md-6">
-        <form class="form-horizontal" role="form" method="post" action="index.php">
+        <form class="form-horizontal" role="form" method="post" action="index.php#contact">
           <div class="form-group">
             <label for="name" class="col-sm-2 control-label">Name</label>
             <div class="col-sm-10">
@@ -734,6 +814,16 @@
       });
 
   });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92638625-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
   </body>
 </html>

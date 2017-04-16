@@ -55,6 +55,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 *, h2 *, h3 *, h4 *, h5
   left: -23px;
   text-align: center;
 }
+img.react{
+  width: 120px; 
+  position: absolute;
+  top:15px;
+  left:6px;
+}
+/*#react li{
+  position: relative;
+  text-align: center;
+}*/
 #arduino{
   height: 75px;
   position: relative;
@@ -485,8 +495,8 @@ section#portfolio {
     margin-left: -60px;
 }
 div.whiteText {
-  color: white;
-  background-color: rgba(255,255,255,.4); 
+  color: black;
+  background-color: rgba(255,255,255,.5); 
   border-radius: 20px;
 }
 

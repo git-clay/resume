@@ -1,6 +1,43 @@
-#main-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-
+body *{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
 }
+body section {
+    width:95%;
+    margin-top: 2%;
+}
+
+.center{
+    margin: auto;
+}
+
+/* header */
+.header-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: #73d3b2;
+    min-height: 150px;
+}
+.mdl-card__title,.mdl-card__subtitle-text{
+    justify-content: center;
+}
+/* main */
+#main-container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#main-container div{
+    flex-direction: column;
+}
+#main-container .mdl-card__title-text{
+    justify-content: center;
+    align-items: center;
+}
+.vertical-col p{
+    margin: 0 ;
+}
+
+/* footer */
